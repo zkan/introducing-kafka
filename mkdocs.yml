@@ -1,0 +1,6 @@
+site_name: Introducing Kafka
+
+theme:
+  name: material
+  features:
+    - content.code.copy
