@@ -1,2 +1,1 @@
-# kafka-for-everyone
-Kafka for Everyone
+# Introducing Kafka
