@@ -5,7 +5,6 @@ click==8.1.8
 colorama==0.4.6
 ghp-import==2.1.0
 idna==3.10
--e file:///Users/zkan/Work/zkan/introducing-kafka
 jinja2==3.1.5
 markdown==3.7
 markupsafe==3.0.2
