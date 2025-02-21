@@ -1,4 +1,4 @@
-# Welcome to MkDocs
+# Introducing Kafka
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
