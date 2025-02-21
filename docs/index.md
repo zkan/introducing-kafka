@@ -1,4 +1,4 @@
-# Introducing Kafka
+# Welcome to Kafka Workshop
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 

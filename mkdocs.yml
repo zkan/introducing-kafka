@@ -17,3 +17,6 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
+
+nav:
+  - Home: index.md
