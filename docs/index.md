@@ -1,17 +1,28 @@
 # Welcome to Kafka Workshop
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Prerequisites
 
-## Commands
+* Your [GitHub](https://github.com){target=_blank} account
+* Workshop Repo: [:material-github: GitHub](https://github.com/zkan/introducing-kafka/){target=_blank}
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Getting Started
 
-## Project layout
+Download Kafka
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+```bash
+wget https://dlcdn.apache.org/kafka/3.9.0/kafka_2.13-3.9.0.tgz
+tar xvf kafka_2.13-3.9.0.tgz
+cd kafka_2.13-3.9.0/
+```
+
+Start Zookeeper server
+
+```bash
+bin/zookeeper-server-start.sh config/zookeeper.properties
+```
+
+Start Kafka server
+
+```bash
+bin/kafka-server-start.sh config/server.properties
+```
