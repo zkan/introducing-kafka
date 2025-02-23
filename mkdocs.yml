@@ -38,5 +38,5 @@ nav:
   - Running Kafka on Local: running-kafka-on-local.md
   - Sending your First Message: sending-your-first-message.md
   - Understanding Consumer Groups: understanding-consumer-groups.md
-  - Producing Messages to Kafka: producing-messages-to-kafka.md
+  - Kafka Partitioning: kafka-partitioning.md
   - Consuming Messages from Kafka: consuming-messages-from-kafka.md
