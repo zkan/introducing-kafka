@@ -8,3 +8,15 @@
 ```bash
 docker compose up
 ```
+
+## Running a Producer
+
+```bash
+python json_producer.py -b localhost:9092 -s http://localhost:8081 -t topic_52
+```
+
+## Running a Consumer
+
+```bash
+python json_consumer.py -b localhost:9092 -s http://localhost:8081 -t topic_52 -g my-group
+```
