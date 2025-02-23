@@ -28,6 +28,12 @@ schemas เพื่อทำให้มั่นใจว่าข้อมู
 docker compose up
 ```
 
+หลังจากรันคำสั่งข้างบนแล้ว เราจะสามารถเข้า Control center ที่เป็นหน้า UI ของ Confluent
+platform ได้ที่ [http://localhost:9021/](http://localhost:9021/){target=_blank}
+
+* Kafka broker จะรันอยู่ที่ port 9092
+* Schema registry จะรันอยู่ที่ port 8081
+
 ## Running a Producer
 
 ```bash
@@ -39,3 +45,7 @@ python json_producer.py -b localhost:9092 -s http://localhost:8081 -t topic_52
 ```bash
 python json_consumer.py -b localhost:9092 -s http://localhost:8081 -t topic_52 -g my-group
 ```
+
+## References
+
+* [Tutorial: Use Schema Registry on Confluent Platform to Implement Schemas for a Client Application](https://docs.confluent.io/platform/current/schema-registry/schema_registry_onprem_tutorial.html){target=_blank}
