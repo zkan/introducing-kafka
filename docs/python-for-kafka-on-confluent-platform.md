@@ -2,7 +2,8 @@
 
 ในเวิร์คชอปนี้เราจะใช้ Confluent platform ในการรัน Kafka ซึ่งใน platform นี้จะมี feature
 และ component ต่าง ๆ ให้เราสามารถเรียนรู้ Kafka ได้สะดวกมากขึ้น ซึ่ง component
-หนึ่งที่เราหยิบมาใช้งานในเวิร์คชอปนี้คือ schema registry
+หนึ่งที่เราหยิบมาใช้งานในเวิร์คชอปนี้คือ [schema
+registry](https://docs.confluent.io/platform/current/schema-registry/index.html){target=_blank}
 
 ## Why Schema Registry?
 
