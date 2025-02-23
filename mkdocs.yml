@@ -37,5 +37,6 @@ nav:
   - What is Kafka?: what-is-kafka.md
   - Running Kafka on Local: running-kafka-on-local.md
   - Sending your First Message: sending-your-first-message.md
+  - Understanding Consumer Groups: understanding-consumer-groups.md
   - Producing Messages to Kafka: producing-messages-to-kafka.md
   - Consuming Messages from Kafka: consuming-messages-from-kafka.md
