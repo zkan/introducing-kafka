@@ -34,7 +34,8 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Starting Kafka on Local: starting-kafka-on-local.md
-  - Working with Topics: working-with-topics.md
+  - What is Kafka?: what-is-kafka.md
+  - Running Kafka on Local: running-kafka-on-local.md
+  - Sending your First Message: sending-your-first-message.md
   - Producing Messages to Kafka: producing-messages-to-kafka.md
   - Consuming Messages from Kafka: consuming-messages-from-kafka.md
