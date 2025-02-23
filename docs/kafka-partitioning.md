@@ -1,6 +1,6 @@
 # Kafka Partitioning
 
-How Partitioning Works
+## How Partitioning Works
 
 Kafka แบ่ง topic ออกเป็น partitions ถ้า message ที่ส่งเข้ามาไม่มี key แนบมาด้วย message จะถูกกระจายไปตาม partitions ของ topic นั้น ๆ (partition assignment) แบบ round-robin ดังนั้นถ้าเป็นการกระจาย message ไปตาม partitions แล้ว เรื่อง order จะไม่ถูก guarantee
 
