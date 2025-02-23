@@ -39,3 +39,5 @@ nav:
   - Sending your First Message: sending-your-first-message.md
   - Understanding Consumer Groups: understanding-consumer-groups.md
   - Kafka Partitioning: kafka-partitioning.md
+  - Python for Kafka: python-for-kafka.md
+  - Python for Kafka (on Confluent Platform): python-for-kafka-on-confluent-platform.md
