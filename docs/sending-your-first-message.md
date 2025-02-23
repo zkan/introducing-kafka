@@ -42,7 +42,7 @@ bin/kafka-topics.sh --bootstrap-server localhost:9092 --describe
 bin/kafka-topics.sh --bootstrap-server localhost:9092 --delete --topic my-first-topic
 ```
 
-## Sending a Message
+## Sending Messages
 
 การส่ง message ใน Kafka เราจะต้องมีตัว producer ซึ่งเราจะต้องเขียนโค้ดพัฒนาขึ้นมา อย่างไรก็ดี Kafka ที่เราโหลดมาจะมีสคริป `kafka-console-producer.sh` มาให้เราใช้งาน
 
@@ -58,7 +58,7 @@ bin/kafka-console-producer.sh --bootstrap-server localhost:9092 --topic my-first
 
 ![Producing messages](img/producing-messages.png)
 
-## Reading a Message
+## Reading Messages
 
 Kafka ที่เราโหลดมาก็มีสคริป `kafka-console-consumer.sh` ให้เราใช้งานเป็นตัว consumer แล้ว ดังนั้นเราจะใช้สคริปนี้เป็นตัว consume ข้อมูล หรือ message จาก Kafka เลย โดยใช้คำสั่ง
 
