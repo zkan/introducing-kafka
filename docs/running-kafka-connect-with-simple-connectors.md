@@ -3,6 +3,8 @@
 ในเวิร์คชอปนี้เราจะลองเล่น Kafka Connect แบบเรียบร้อย โดยเราจะ import ข้อมูลจากไฟล์เข้าไปที่
 topic และ export ข้อมูลจาก topic ไปที่ไฟล์
 
+## Starting Kafka Connect
+
 ก่อนที่จะรัน Kafka Connect ขึ้นมา เราต้องมีตัว connector ก่อน ในที่นี้เราจะใช้
 `connect-file-3.9.0.jar` เพื่อเชื่อมต่อไปยังไฟล์ โดยให้เราปรับแก้ไฟล์ configuration ที่ชื่อ
 `config/connect-standalone.properties` แล้วเซตค่า `plugin.path` ตามนี้
@@ -37,6 +39,8 @@ bin/connect-standalone.sh config/connect-standalone.properties config/connect-fi
 ```bash
 echo "another hello" >> test.txt
 ```
+
+## Running a Consumer
 
 นอกจากนี้เรายังสามารถรัน consumer ขึ้นมาเพื่อดึง message จาก topic `connect-test`
 ได้อีกด้วย ให้ใช้คำสั่งตามนี้
