@@ -23,4 +23,7 @@
 
 ## References
 
+* [Apache Kafka](https://kafka.apache.org/){target=_blank}
+* [Confluent Education](https://www.confluent.io/training/){target=_blank}
+* [Confluent - YouTube Channel](https://www.youtube.com/channel/UCmZz-Gj3caLLzEWBtbYUXaA){target=_blank}
 * [Tutorial: Use Schema Registry on Confluent Platform to Implement Schemas for a Client Application](https://docs.confluent.io/platform/current/schema-registry/schema_registry_onprem_tutorial.html){target=_blank}
