@@ -9,3 +9,14 @@
 
 * Your [GitHub](https://github.com){target=_blank} account
 * Basic knowledge about command-line interface (CLI) and Python
+
+## Table of Contents
+
+1. [What is Kafka?](what-is-kafka.md)
+1. [Running Kafka on Local](running-kafka-on-local.md)
+1. [Sending your First Message](sending-your-first-message.md)
+1. [Understanding Consumer Groups](understanding-consumer-groups.md)
+1. [Kafka Partitioning](kafka-partitioning.md)
+1. [Running Kafka Connect with Simple Connectors](running-kafka-connect-with-simple-connectors.md)
+1. [Python for Kafka](python-for-kafka.md)
+1. [Python for Kafka with Schema Registry (on Confluent Platform)](python-for-kafka-with-schema-registry-on-confluent-platform.md)
