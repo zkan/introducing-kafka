@@ -45,7 +45,3 @@ python json_producer.py -b localhost:9092 -s http://localhost:8081 -t topic_52
 ```bash
 python json_consumer.py -b localhost:9092 -s http://localhost:8081 -t topic_52 -g my-group
 ```
-
-## References
-
-* [Tutorial: Use Schema Registry on Confluent Platform to Implement Schemas for a Client Application](https://docs.confluent.io/platform/current/schema-registry/schema_registry_onprem_tutorial.html){target=_blank}

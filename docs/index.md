@@ -20,3 +20,7 @@
 1. [Running Kafka Connect with Simple Connectors](running-kafka-connect-with-simple-connectors.md)
 1. [Python for Kafka](python-for-kafka.md)
 1. [Python for Kafka with Schema Registry (on Confluent Platform)](python-for-kafka-with-schema-registry-on-confluent-platform.md)
+
+## References
+
+* [Tutorial: Use Schema Registry on Confluent Platform to Implement Schemas for a Client Application](https://docs.confluent.io/platform/current/schema-registry/schema_registry_onprem_tutorial.html){target=_blank}
