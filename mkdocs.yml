@@ -40,4 +40,4 @@ nav:
   - Understanding Consumer Groups: understanding-consumer-groups.md
   - Kafka Partitioning: kafka-partitioning.md
   - Python for Kafka: python-for-kafka.md
-  - Python for Kafka (on Confluent Platform): python-for-kafka-on-confluent-platform.md
+  - Python for Kafka with Schema Registry (on Confluent Platform): python-for-kafka-with-schema-registry-on-confluent-platform.md
