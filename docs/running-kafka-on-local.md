@@ -50,8 +50,9 @@ bin/zookeeper-server-start.sh config/zookeeper.properties
 
 !!! note
 
-    ในการรัน Kafka นั้น เราจำเป็นต้องรัน ZooKeeper ขึ้นมาก่อน เพราะ Kafka ต้องใช้งาน
-    และเวลาที่เราจะเลิกใช้งาน เราก็ต้องปิด Kafka ก่อน แล้วค่อยปิด ZooKeeper
+    ในการรัน Kafka นั้น เราจำเป็นต้องรัน ZooKeeper ขึ้นมาก่อน เพราะ Kafka ต้องใช้งาน ตัว
+    ZooKeeper จะทำหน้าที่ในส่วน leader election และ maintain ข้อมูล metadata
+    ส่วนเวลาที่เราจะเลิกใช้งาน เราก็ต้องปิด Kafka ก่อน แล้วค่อยปิด ZooKeeper
 
 ## Starting Kafka
 
