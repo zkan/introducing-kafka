@@ -42,3 +42,4 @@ nav:
   - Running Kafka Connect with Simple Connectors: running-kafka-connect-with-simple-connectors.md
   - Python for Kafka: python-for-kafka.md
   - Python for Kafka with Schema Registry (on Confluent Platform): python-for-kafka-with-schema-registry-on-confluent-platform.md
+  - Viewing Kafka Stuff with Kafdrop: viewing-kafka-stuff-with-kafdrop.md
